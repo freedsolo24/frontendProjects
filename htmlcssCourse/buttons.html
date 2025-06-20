@@ -1,8 +1,9 @@
 <style>
 /*css selector, 指明目标是谁*/
-    /* button {   如果是button, 会对所有button生效     */
+    /* button {   如果是button, 会对所有button生效     
+    . 用来定位 */
 
-    .subscribe-button {
+    .subscribe-button {  
         background-color: red;   /*冒号左边的叫做css属性, 冒号右边的叫做css值*/
         color:white;
         border: none;              /*设置按钮有无边线*/
@@ -11,7 +12,18 @@
         border-radius: 20px;       /*按钮的四个园角*/
         cursor: pointer;           /*按钮是一个手型*/
         margin-right: 8px;         /*按钮的右侧有margin*/
+        transition: opacity 0.15s;     /*transition的作用：让标准样式和悬浮样式之间的平滑转换的耗时*/
 
+    }
+
+    .subscribe-button:hover {    /*设置按钮的hover :hover的意思是设置悬浮效果effect*/
+         /* :hover 被称为pseudo class，作用在certain situation的条件下加其他的效果*/
+      /*background-color: green;*/
+      opacity: 0.8   /*透明度*/
+    }
+    .subscribe-button:active {  /* 针对subscribe-button 设置的一个pseudo class active*/
+        /*background-color: blue;*/
+        opacity: 0.4
     }
 
     .join-button {
@@ -25,6 +37,17 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: background-color 0.15s,color 0.15s; /* 把transition放在基本的css样式中*/
+    }
+
+    .join-button:hover {
+      background-color: rgb(41,118,211);
+      color: white;
+       
+    }
+
+    .join-button:active {
+        opacity: 0.7;
     }
 
     .tweet-button {
@@ -39,6 +62,14 @@
         margin-left: 8px;
         font-weight: bold;  /*按钮字体加粗*/
         font-size: 15px;    /*按钮字母大小*/
+        /* box-shadow: 5px 5px 10px  rgba(0,0,0,0.15);  第一个值设置水平 第二个值设置垂直 第三个值设置模糊*/
+        /* rgba的a代表opacity，a的值最大是1不透明，越来越小就越透明 */
+        transition: box-shadow 0.15s;
+        /*我们想让出现box-shadow的时候做transition */
+    }
+
+    .tweet-button:hover {
+       box-shadow: 5px 5px 10px  rgba(0,0,0,0.5);   /*悬浮的时候才显示shadow*/
     }
     .Uber-button {
         background-color:black;
