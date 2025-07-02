@@ -1,8 +1,9 @@
-# 1. html标签
+# 1. html基础
     (1) p标签, button标签, a标签
     (2) a标签的属性, href, target
 # 2. button CSS
-    写button的css样式
+    (1) 写button的css样式
+# 3. hover, transitions, shadows
     (1) hover, transition, shadow, opacity
     (2) class属性, 给button打标签
     (3) css 通过 <.标签> 调用某一个button, 明细设计这个button的样式
@@ -31,4 +32,12 @@ a. <strong>元素, <u>元素, <span>元素
 b. 可以为span单独做class
 c. <p>里面设置了一堆空格, 但是html页面合并了, 不显示.解决方法是在<span>的class里面设置margin
 # 6. html structure
+1. html的书写结构, 写一个<!DOCTYPE> , 所有html语句包裹在<html>标签里, 指明是一个web网页
+2. 里面有一个<head>和一个<body>元素
+   所有可见的元素标签都放在<body>标签里
+   所有不可见的元素都放在<head>标签里, 例如标签的title
+3. 安装live server插件，右键选择“open with live server"
+4. style标签要放在head标签里面
+5. vscode调整html语句的快捷键 "Alt+Shift+F"
+
  
