@@ -1,84 +1,38 @@
-<style>
-    p {  /*p是element name*/
-        font-family: Arial;  /*应用于所有的P*/
-        margin-top:0;
-        margin-bottom:0;
-    }
-    .video-title {    /*.video-title是class name*/
-        
-        font-size: 18px;
-        font-weight: bold;
-        font-style: italic;
-        text-align: center;
-        width: 300px;          /* 设置width可以换行*/
-        line-height: 24px;
-        margin-bottom: 5px;
-    }
-    .video-stats {
-       
-        font-size: 14px;
-        color: rgb(96, 96, 96);
-        margin-bottom:20px;
-    }
-    .video-author {
-        
-        color: rgb(96, 96, 96);
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-    .video-description {
-        
-        font-size: 14px;
-        color: rgb(96, 96, 96);
-        width: 280px;
-        line-height: 22px;
-        margin-bottom: 100px;
-    }
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Practice</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/text.css">
 
-    .apple-text {
-        margin-bottom: 50px;
-        font-size: 14px;
-        background-color: red;
-        color: white;
-        text-align: center;
-        padding-top: 18px;
-        padding-bottom: 18px;
-        /*text-decoration: underline;   对整个字体设置下划线*/
-    }
+    </head>
 
-    .shop-link {
-        cursor: pointer;        /*悬浮的时候是个手的标志*/
-    }
-        .shop-link:hover {
-        text-decoration: underline;  /*悬浮的时候出现下划线*/;
-    }
-  .span-example {
-    color: red;
-    margin-left: 12px;
-  }
+    <body>
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
 
-</style>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
 
-<p class="video-title">
-    Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
+        <p class="video-author">
+            Marques Brownlee &#10003;
+        </p>
 
-<p class="video-stats">
-    3.4M views &#183; 6 months ago
-</p>
+        <p class="video-description">
+            Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+        </p>
 
-<p class="video-author">
-    Marques Brownlee &#10003;
-</p>
+        <p class="apple-text">
+            Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;   </span>
+        </p>
 
-<p class="video-description">
-    Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
-</p>
+        <p>
+            Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites.         <span class="span-example">Shop now</span> &#62;   
+        </p>
+    </body>
 
-<p class="apple-text">
-    Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;   </span>
-</p>
-
-<p>
-    Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites.         <span class="span-example">Shop now</span> &#62;   
-</p>
+</html>

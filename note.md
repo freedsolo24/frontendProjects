@@ -39,5 +39,6 @@ c. <p>里面设置了一堆空格, 但是html页面合并了, 不显示.解决�
 3. 安装live server插件，右键选择“open with live server"
 4. style标签要放在head标签里面
 5. vscode调整html语句的快捷键 "Alt+Shift+F"
+6. 把css配置放在独立的文件中, 使用link标签
+7. 加载新的字体从google fonts, 并且展示在页面上新的字体
 
- 

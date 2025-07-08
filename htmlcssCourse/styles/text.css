@@ -1,0 +1,57 @@
+p {  /*p是element name*/
+            font-family: Roboto;  /*应用于所有的P*/
+            margin-top:0;
+            margin-bottom:0;
+        }
+        .video-title {    /*.video-title是class name*/
+            
+            font-size: 18px;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            width: 300px;          /* 设置width可以换行*/
+            line-height: 24px;
+            margin-bottom: 5px;
+        }
+        .video-stats {
+        
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            margin-bottom:20px;
+        }
+        .video-author {
+            
+            color: rgb(96, 96, 96);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .video-description {
+            
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            width: 280px;
+            line-height: 22px;
+            margin-bottom: 100px;
+        }
+
+        .apple-text {
+            margin-bottom: 50px;
+            font-size: 14px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            /*text-decoration: underline;   对整个字体设置下划线*/
+        }
+
+        .shop-link {
+            cursor: pointer;        /*悬浮的时候是个手的标志*/
+        }
+            .shop-link:hover {
+            text-decoration: underline;  /*悬浮的时候出现下划线*/;
+        }
+    .span-example {
+        color: red;
+        margin-left: 12px;
+    }
